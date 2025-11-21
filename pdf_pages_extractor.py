@@ -14,8 +14,8 @@ st.set_page_config(
 st.header('PDF Extractor App 📚 → 💻')
 st.subheader('Extract pages from a pdf file and download them.')
 
-author = 'danicoder'
-st.write(f'Page created by {author} 🧔🏻')
+st.markdown('Page created by [danicoder](https://github.com/chusk2/) 🧔🏻')
+st.markdown('App code available @ **[github](https://github.com/chusk2/pdf_pages_extractor)**')
 
 # center the image using columns
 c1, c2, c3 = st.columns([1,3,1])
